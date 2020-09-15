@@ -1,4 +1,4 @@
-# hello-world
+# Exercise Front
 
 ## Project setup
 ```
@@ -10,15 +10,14 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+J'aimerais ajouter une class active `:class="{ 'active': letter.active }"` quand je clique sur une lettre.<br/>
+Mais ma fonction `addActiveOnLetter` ne fonctionne pas.<br/>
+Pourtant dans la console, la clé `active` a bien été ajouté a l'objet sur lequel j'ai cliqué...
 
-### Lints and fixes files
-```
-npm run lint
-```
+Une idée ? 🧐
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Tu ne peux pas modifier l'array letters dans `data()``
+
+Ensuite, tu peux modifier la fonction pour ajouter les fonctionalités suivantes:
+- Déselectionner une lettre
+- N'avoir qu'une seule lettre active
