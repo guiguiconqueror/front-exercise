@@ -16,8 +16,13 @@ Pourtant dans la console, la clé `active` a bien été ajouté a l'objet sur le
 
 Une idée ? 🧐
 
-Tu ne peux pas modifier l'array letters dans `data()``
+Tu ne peux pas modifier l'array letters dans `data()`
 
 Ensuite, tu peux modifier la fonction pour ajouter les fonctionalités suivantes:
 - Déselectionner une lettre
 - N'avoir qu'une seule lettre active
+
+Une fois l'exercise terminé:
+- Création d'une branche: `feature/`
+- Création d'une pull request
+- Ne pas push sur master

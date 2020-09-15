@@ -37,9 +37,9 @@ export default {
   },
   methods: {
     addActiveOnLetter(letter) {
-      this.letters.find(l => l.key === letter.key).active = true
+      letter.active = true
 
-      console.log(this.letters.find(l => l.active))
+      console.log(letter)
     }
   }
 }
