@@ -1,4 +1,4 @@
-# Exercise Front
+# Front-end Exercise
 
 ## Project setup
 ```
